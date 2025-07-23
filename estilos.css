@@ -1,0 +1,30 @@
+body
+{
+  background-color: #f8f9fa;
+}
+
+#lista-nombres button
+{
+  text-align: left;
+  color: #0d6efd;
+  font-weight: 500;
+  text-decoration: none;
+}
+#lista-nombres button:hover
+{
+  text-decoration: underline;
+}
+
+/* Contenedor de detalle */
+#info
+{
+  background-color: #ffffff;
+  border-left: 5px solid #0d6efd;
+}
+
+/* Ajuste para que las columnas no estén tan pegadas */
+#lista-nombres .col-md-6
+{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
